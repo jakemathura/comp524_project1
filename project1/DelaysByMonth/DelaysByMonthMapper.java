@@ -22,7 +22,7 @@ public class DelaysByMonthMapper extends Mapper<LongWritable, Text, Text, IntWri
 		int lateAircraft = 0;
 
 		try {
-			lateAircraft = Integer.parseInt(tokens[tokens.length - 1]);
+			lateAircraft = Integer.parseInt(tokens[8]);
 
 		} catch (Exception e) {
 			
